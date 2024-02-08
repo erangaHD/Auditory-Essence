@@ -57,6 +57,7 @@ const Navbar = () => {
         {name:'About' , link:'/'},
         {name:'Service' , link:'/'},
         {name:'Pricing' , link:'/'},
+        {name:'Testimonials' , link:'/'},
         {name:'Contact' , link:'/'}
     ]
 

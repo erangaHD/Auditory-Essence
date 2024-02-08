@@ -1,0 +1,26 @@
+[
+    {
+        "name" : "On Hold Demo Selection 1",
+        "audio" : "voice1.mp3"
+    },
+    {
+        "name" : "On Hold Demo Selection 2",
+        "audio" : "voice2.mp3"
+    },
+    {
+        "name" : "On Hold Demo Selection 3",
+        "audio" : "voice3.mp3"
+    },
+    {
+        "name" : "On Hold Demo Selection 4",
+        "audio" : "voice4.mp3"
+    },
+    {
+        "name" : "On Hold Demo Selection 5",
+        "audio" : "voice5.mp3"
+    },
+    {
+        "name" : "On Hold Demo Selection 6",
+        "audio" : "voice6.mp3"
+    }
+]

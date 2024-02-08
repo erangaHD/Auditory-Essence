@@ -5,9 +5,6 @@ import BenifitCard from './BenifitCard'
 import benifit from '../../data/benifits.json'
 
 
-
-const ico = 'SmsRoundedIcon'
-
 const Benifits = () => {
   return (
     <Container >

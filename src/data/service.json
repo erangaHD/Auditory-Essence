@@ -1,0 +1,17 @@
+[
+    {
+        "service": "Male/Female Voice Options",
+        "description" : "We offer a comprehensive voiceover service that covers both male and female voices. We understand the importance of having the right voice to effectively convey your message and capture your audience's attention.",
+        "image" : "service1.jpg"
+    },
+    {
+        "service": "Professional Script Writing",
+        "description" : "We specialize in professional script writing services that bring your ideas to life. Our team of experienced scriptwriters understands the power of effective storytelling your message and capture your audience's attention.",
+        "image" : "service2.png"
+    },
+    {
+        "service": "Music Selections",
+        "description" : "We offer a wide range of music selections to enhance your projects and create an unforgettable auditory experience. Our extensive library features a diverse collection of genres, moods, and styles to suit any production.",
+        "image" : "service3.webp"
+    }
+]

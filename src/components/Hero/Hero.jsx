@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Container, Typography, styled } from '@mui/material'
+import { Box, Button, Typography, styled } from '@mui/material'
 import colors from '../../vars'
 import getImageUrl from '../../utils'
 
