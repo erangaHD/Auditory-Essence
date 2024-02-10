@@ -65,7 +65,7 @@ const Hero = () => {
                             fontSize:'30px'}}/>
                     </Typography>
                 </Box>
-                <Box mb={'15px'}>
+                <Box mb={'50px'}>
                     <Typography variant='body1'  sx={{color:colors.lightGray}}>
                         We Are An Online Service Provider That Provides To <b>Voiceovers 
                         To Many Different Companies</b>.  We Specialize In On Hold Music And 

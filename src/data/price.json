@@ -1,0 +1,44 @@
+[
+    {
+        "name":"FREE",
+        "colorPrim": "#fe01a9",
+        "colorSecond": "#fe01a9",
+        "dolor": "$",
+        "priceM": "0",
+        "priceY": "0",
+        "topicM": "*Free for personal account",
+        "topicY": "*Free for personal account",
+        "subtopic": "For Personal",
+        "description": "A free personal account forever grants you access to echive Midas features",
+        "button": false,
+        "bg": "art1.png"
+    },
+    {
+        "name":"MOST POPULAR",
+        "colorPrim": "#7805e8",
+        "colorSecond": "#6d79ca",
+        "dolor": "$",
+        "priceM": "19",
+        "priceY": "100",
+        "topicM": "month (billed annually)",
+        "topicY": "year (billed annually)",
+        "subtopic": "For Business",
+        "description": "A business account forever grants you access to exclusive Midas features",
+        "button": false,
+        "bg": "art2.png"
+    },
+    {
+        "name":"CUSTOM",
+        "colorPrim": "#bc02ec",
+        "colorSecond": "#8301e1",
+        "dolor": "",
+        "priceM": "",
+        "priceY": "",
+        "topicM": "",
+        "topicY": "",
+        "subtopic": "For Enterprise",
+        "description": "[description here] placeholder text to demonstrate the visual form of a typeface without relying on meaningful content.",
+        "button": true,
+        "bg": "art3.png"
+    }
+]
