@@ -14,7 +14,7 @@ const PriceCard = (props) => {
         backgroundPosition:'top right',
         backgroundSize:'100px',
         backgroundRepeat: 'no-repeat',
-        border: `1px ${colors.shade} solid`,
+        border: `1px ${colors.lightGray} solid`,
         borderRadius: '20px',
         ...theme.typography.body2,
         padding: theme.spacing(1),

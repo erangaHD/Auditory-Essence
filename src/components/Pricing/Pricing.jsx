@@ -17,12 +17,12 @@ const Pricing = () => {
   
   return (
     <Box sx={{background:colors.black, p:'50px 0'}}>
-      <Container sx={{display:'flex', justifyContent:'space-between'}}>
+      <Container sx={{display:'flex', justifyContent:'space-between', flexDirection:{xs:'column', sm:'column', md:'row'} }}>
         <Typography variant='h3' sx={{fontWeight:600}} color={colors.white}>
             Choose your <span style={{color:colors.primaryPink}}>pricing plan</span><br />
             or custom
         </Typography>
-        <Box sx={{display:'flex', alignItems:'center', justifyContent:'flex-end', gap:'15px'}}>
+        <Box sx={{display:'flex', alignItems:'center', justifyContent:'flex-end', gap:'15px', flexDirection:{xs:'column', sm:'row', md:'row'}}}>
           <Box sx={{display:'flex', alignItems:'center', gap:'8px'}}>
             <MonetizationOnIcon sx={{color:colors.green}}/>
             <Typography color={colors.white}>Save up to <span style={{color:colors.green}}>30%</span></Typography>
