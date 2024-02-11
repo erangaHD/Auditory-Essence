@@ -3,14 +3,18 @@ import React from 'react'
 import colors from '../../vars'
 import getImageUrl from '../../utils'
 
-const TestimonialCard = () => {
+const TestimonialCard = (props) => {
+
+    const photo = getImageUrl(`testimonial/${props.photo}`)    
+    const bg = getImageUrl('testimonial/bg1.jpg')    
 
     const Item = styled(Paper)(({ theme }) => ({
         backgroundColor: colors.white,
-        // backgroundImage: `url(${bg})`,
-        // backgroundPosition:'top right',
-        // backgroundSize:'100px',
-        // backgroundRepeat: 'no-repeat',        
+        backgroundImage: `url(${bg})`,
+        backgroundPosition:'left',
+        backgroundSize:'cover',
+        // backgroundSize:'300px',
+        backgroundRepeat: 'no-repeat',        
         borderRadius: '10px',
         ...theme.typography.body2,
         padding: '20px',
@@ -34,8 +38,8 @@ const TestimonialCard = () => {
                 }}>
                 <Box sx={{p:'20px',display:'flex', alignItems:'center', justifyContent:'space-between', height:'100%'}}>
                     <Avatar
-                    alt="roshel"
-                    src={getImageUrl('testimonial/roshel.jpg')}
+                    alt={props.name}
+                    src={photo}
                     sx={{ width: 120, height: 120,
                         boxShadow: '3px 3px 10px rgba(188,2,236,0.6)' }}
                     />
@@ -47,18 +51,15 @@ const TestimonialCard = () => {
                     justifyContent:'center', 
                     p:'20px',
                     gap:'40px'}} >
-                    <Typography color={colors.lightGray} sx={{ fontStyle: 'italic' }}>
+                    <Typography color={colors.blue} sx={{ fontStyle: 'italic' }}>
                         <span style={{color:colors.midGray}}>"</span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Voluptas laborum corporis ducimus expedita voluptatibus 
-                        unde illum delectus, fuga minus in dicta placeat esse, perspiciatis 
-                        deleniti quo? Ipsa inventore ea consequuntur maiores fugit ullam 
-                        aliquam illo quisquam a!
+                        {props.message}
                         <span style={{color:colors.midGray}}>"</span>
                     </Typography>
                     <Box>
-                    <Typography variant='body1' align='right' color={colors.darkGray}>Roshel</Typography>
-                    <Typography variant='body2' align='right' color={colors.primaryPink}>Graphic designer</Typography>
+                    <Typography variant='h6' align='right' color={colors.blue}><i>{props.name}</i></Typography>
+                    <Typography variant='subtitle1' align='right' color={colors.primaryPink}><i>{props.job}</i></Typography>
+                    <Typography variant='subtitle2' align='right' color={colors.primaryPink}><i>{props.company}</i></Typography>
                     </Box>
                 </Box>
             </Box>
@@ -68,3 +69,4 @@ const TestimonialCard = () => {
 }
 
 export default TestimonialCard
+

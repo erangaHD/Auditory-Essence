@@ -1,0 +1,51 @@
+[
+    {
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum corporis ducimus expedita voluptatibus nde illum delectus, fuga minus in dicta placeat esse, perspiciatis deleniti quo? Ipsa inventore ea consequuntur maiores fugit ullam aliquam illo quisquam a!",
+        "name" : "Dilini Perera",
+        "job" : "Music Director",
+        "company" : "",
+        "photo" : "dilini.jpg"
+    },
+    {
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe corporis debitis iusto, quam aliquam, sequi neque delectus vitae cupiditate ex ut fuga aliquid iste quasi voluptates sunt asperiores sint nesciunt?",
+        "name" : "Chamil Kodithuwakku",
+        "job" : "e-Learning Developer",
+        "company" : "",
+        "photo" : "chamil.webp"
+    },
+    {
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consequatur nemo nobis, eveniet aut totam.",
+        "name" : "Roshel Subramaniam",
+        "job" : "Art Director",
+        "company" : "-ABC Cope",
+        "photo" : "roshel.jpg"
+    },
+    {
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquid! Nam repudiandae culpa voluptatem accusantium perferendis provident perspiciatis ex porro.",
+        "name" : "Bhanuka Dissanayake",
+        "job" : "Musician",
+        "company" : "",
+        "photo" : "banuka.webp"
+    },
+    {
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum corporis ducimus expedita voluptatibus nde illum delectus, fuga minus in dicta placeat esse, perspiciatis deleniti quo? Ipsa inventore ea consequuntur maiores fugit ullam aliquam illo quisquam a!",
+        "name" : "Sarala De Silva",
+        "job" : "Product Manager",
+        "company" : "-XYZ Pvt ltd",
+        "photo" : "sarala.webp"
+    },
+    {
+        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquid! Nam repudiandae culpa voluptatem accusantium perferendis provident perspiciatis ex porro.",
+        "name" : "Steve Jonson",
+        "job" : "CEO",
+        "company" : "-Creative Go",
+        "photo" : "steve.webp"
+    },
+    {
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nde illum delectus, fuga minus in dicta placeat esse, perspiciatis deleniti quo? Ipsa inventore ea consequuntur maiores fugit ullam aliquam illo quisquam a!",
+        "name" : "Tanya Dias",
+        "job" : "Undergraduate",
+        "company" : "-Rajarata University",
+        "photo" : "tanya.jpg"
+    }
+]
