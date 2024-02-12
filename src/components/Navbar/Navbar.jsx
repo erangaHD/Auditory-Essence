@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link} from 'react-scroll';
 import { AppBar, Box, Button, IconButton, Menu, MenuItem, Toolbar, Typography, styled } from '@mui/material';
 import getImageUrl from '../../utils'
 import colors from '../../vars'
@@ -50,15 +51,15 @@ const Navbar = () => {
     };
     const handleClose = () => {
         setAnchorEl(null);
-    };
+    };    
     
     const menuItems = [
-        {name:'Home' , link:'/'},
-        {name:'About' , link:'/'},
-        {name:'Service' , link:'/'},
-        {name:'Pricing' , link:'/'},
-        {name:'Testimonials' , link:'/'},
-        {name:'Contact' , link:'/'}
+        {name:'Home' , link:'home'},
+        {name:'About' , link:'about'},
+        {name:'Service' , link:'service'},
+        {name:'Pricing' , link:'pricing'},
+        {name:'Testimonials' , link:'testimonial'},
+        {name:'Contact' , link:'contact'}
     ]
 
   return (
@@ -74,7 +75,10 @@ const Navbar = () => {
                 {
                     menuItems.map((item, id) => {
                         return <MenuTypography variant="subtitle1" key={id} >
-                            {item.name}
+                            <Link activeClass="active" to={item.link} spy={true} smooth={true} offset={-70} duration={500}>
+                                {item.name}
+                            </Link>
+                            
                         </MenuTypography>
                     })
                 }
@@ -120,9 +124,13 @@ const Navbar = () => {
 
                     {
                         menuItems.map((item, id) => {
-                            return <MenuItem onClick={handleClose}>
+                            return (
+                                <Link activeClass="active" to={item.link} spy={true} smooth={true} offset={-70} duration={500}>    
+                                <MenuItem onClick={handleClose}>
                                 {item.name}
                                 </MenuItem>
+                                </Link>
+                            )
                         })
                     }
                     <Box sx={{
